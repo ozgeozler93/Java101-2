@@ -43,7 +43,7 @@ public class MineSweeper {
 
                 if (remainingCells == 0) {
                     System.out.println("Oyunu Kazandınız !");
-                    printMineField(emptyField);
+                    //printMineField(emptyField);
                     break;
                 }
             }
