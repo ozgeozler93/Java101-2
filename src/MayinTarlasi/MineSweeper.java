@@ -34,7 +34,7 @@ public class MineSweeper {
 
             if (mineField[selectedRow][selectedCol] == '*') {
                 System.out.println("Game Over!!");
-                printMineField(mineField);
+                //printMineField(mineField);
                 break;
             } else {
                 int numberOfMines = countAdjacentMines(mineField, selectedRow, selectedCol);
